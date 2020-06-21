@@ -1,231 +1,165 @@
-* {
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    
 }
 
-body {
-    background-color: #d6d6d6;
+#menu{
+    text-align: center;
+}
+@media(min-width : 992px){
+
+.boxes{
+    text-align: center;
+    padding-top: 30px;
+    }
+
+.box1, .box2, .box3 {
+    height: 150px;
+    width: 315px;
+    border: solid #000000;
+    margin-left: 15px;
+    display: inline-block;
+    background-color: gray;  
+    }
+
+.px{
+    padding: 5px;
 }
 
-section {
-    border: 1px solid black;
-    background-color: #b5c4d2;
-    margin: 10px;
-}
-
-section>h2 {
+#head1{
+    height: 25px;
+    width: 100px;
     float: right;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    margin: 0;
-    width: 230px;
-    text-align: center;
-    font-style: Times;
-    font-size: 24px;
-    font-weight: bold;
-    height: 45px;
-    padding-top: 10px;
+    border-left: solid #000000;
+    border-bottom: solid #000000;
+    background-color: #ec7b93;
 }
 
-section.chicken>h2 {
-    background-color: #76b8db;
-    color: white
+#head2{
+    height: 25px;
+    width: 100px;
+    float: right;
+    border-left: solid #000000;
+    border-bottom: solid #000000;
+    background-color: #9e3d3d;
+    color: #ffffff;
 }
 
-section.beef>h2 {
-    background-color: darkcyan;
-    color: white;
+#head3{
+    height: 25px;
+    width: 100px;
+    float: right;
+    border-left: solid #000000;
+    border-bottom: solid #000000;
+    background-color: #dfdd69;
+}
 }
 
-section.sushi>h2 {
-    background-color: greenyellow;
-    color: white;
-}
-
-section>p {
-    padding: 40px 15px 15px 15px;
-}
-
-.row {
-    width: 100%;
-}
-
-#menu {
-    text-align: center;
-    font-size: 70px;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-/*desktop*/
-
-@media (min-width: 992px) {
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: Helvetica;
-    }
-    body {
-        background-color: #d6d6d6;
-    }
-    section {
-        border: 1px solid black;
-        background-color: #b5c4d2;
-        margin: 10px;
-    }
-    section>h2 {
-        float: right;
-        border-bottom: 1px solid black;
-        border-left: 1px solid black;
-        margin: 0;
-        width: 230px;
+@media(max-width : 991px) and (min-width : 768px){
+    .boxes{
         text-align: center;
-        font-style: Times;
-        font-size: 24px;
-        font-weight: bold;
-        height: 45px;
-        padding-top: 10px;
-    }
-    section.chicken>h2 {
-        background-color: #76b8db;
-        color: white
-    }
-    section.beef>h2 {
-        background-color: darkcyan;
-        color: white;
-    }
-    section.sushi>h2 {
-        background-color: greenyellow;
-        color: white;
-    }
-    section>p {
-        padding: 40px 15px 15px 15px;
-    }
-    .row {
-        width: 100%;
-    }
-    #menu {
-        text-align: center;
-        font-size: 70px;
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+        padding-top: 30px;
+        }
+    
+        .box1, .box2 {
+            height: 150px;
+            width: 315px;
+            border: solid #000000;
+            margin-left: 15px;
+            display: inline-block;
+            background-color: gray;  
+            }
+        
+            .box3{
+            height: 150px;
+            width: 645px;
+            border: solid #000000;
+            margin-top: 15px;
+            margin-left: 15px;
+            display: inline-block;
+            background-color: gray;
+            }
+            .px{
+                padding: 5px;
+            }
+            
+            #head1{
+                height: 25px;
+                width: 100px;
+                float: right;
+                border-left: solid #000000;
+                border-bottom: solid #000000;
+                background-color: #ec7b93;
+            }
+            
+            #head2{
+                height: 25px;
+                width: 100px;
+                float: right;
+                border-left: solid #000000;
+                border-bottom: solid #000000;
+                background-color: #9e3d3d;
+                color: #ffffff;
+            }
+            
+            #head3{
+                height: 25px;
+                width: 100px;
+                float: right;
+                border-left: solid #000000;
+                border-bottom: solid #000000;
+                background-color: #dfdd69;
+            }
+            
 }
 
-
-/*tablet version*/
-
-@media (min-width: 768px) and (max-width: 991px) {
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: Helvetica;
-    }
-    body {
-        background-color: #d6d6d6;
-    }
-    section {
-        border: 1px solid black;
-        background-color: #b5c4d2;
-        margin: 10px;
-    }
-    section>h2 {
-        float: right;
-        border-bottom: 1px solid black;
-        border-left: 1px solid black;
-        margin: 0;
-        width: 230px;
+@media(max-width :767px){
+    .boxes{
         text-align: center;
-        font-style: Times;
-        font-size: 24px;
-        font-weight: bold;
-        height: 45px;
-        padding-top: 10px;
-    }
-    section.chicken>h2 {
-        background-color: #76b8db;
-        color: white
-    }
-    section.beef>h2 {
-        background-color: darkcyan;
-        color: white;
-    }
-    section.sushi>h2 {
-        background-color: greenyellow;
-        color: white;
-    }
-    section>p {
-        padding: 40px 15px 15px 15px;
-    }
-    .row {
-        width: 100%;
-    }
-    #menu {
-        text-align: center;
-        font-size: 70px;
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-}
+        padding-top: 30px;
+        
+        }
 
+    .box1, .box2, .box3 {
+        height: 150px;
+        width: 315px;
+        border: solid #000000;
+        margin-left: 15px;
+        margin: auto;
+        background-color: gray; 
+        margin-top: 15px; 
+        }
 
-/*mobile version*/
-
-@media (max-width: 767px) {
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: Helvetica;
-    }
-    body {
-        background-color: #d6d6d6;
-    }
-    section {
-        border: 1px solid black;
-        background-color: #b5c4d2;
-        margin: 10px;
-    }
-    section>h2 {
-        float: right;
-        border-bottom: 1px solid black;
-        border-left: 1px solid black;
-        margin: 0;
-        width: 230px;
-        text-align: center;
-        font-style: Times;
-        font-size: 24px;
-        font-weight: bold;
-        height: 45px;
-        padding-top: 10px;
-    }
-    section.chicken>h2 {
-        background-color: #76b8db;
-        color: white
-    }
-    section.beef>h2 {
-        background-color: darkcyan;
-        color: white;
-    }
-    section.sushi>h2 {
-        background-color: greenyellow;
-        color: white;
-    }
-    section>p {
-        padding: 40px 15px 15px 15px;
-    }
-    .row {
-        width: 100%;
-    }
-    #menu {
-        text-align: center;
-        font-size: 70px;
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+        .px{
+            padding: 5px;
+        }
+        
+        #head1{
+            height: 25px;
+            width: 100px;
+            float: right;
+            border-left: solid #000000;
+            border-bottom: solid #000000;
+            background-color: #ec7b93;
+        }
+        
+        #head2{
+            height: 25px;
+            width: 100px;
+            float: right;
+            border-left: solid #000000;
+            border-bottom: solid #000000;
+            background-color: #9e3d3d;
+            color: #ffffff;
+        }
+        
+        #head3{
+            height: 25px;
+            width: 100px;
+            float: right;
+            border-left: solid #000000;
+            border-bottom: solid #000000;
+            background-color: #dfdd69;
+        }
 }
