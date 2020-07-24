@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#imp{
+	font-family: 'Grenze Gotisch', cursive;
+	background-image: url('https://cdn.dribbble.com/users/1875932/screenshots/6892278/sunday_ewageruzel_4x.jpg?compress=1&resize=800x600');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#header{
+	background-color: #AB05F2;
+
+}
+#topic{
+	height:10%;
+}
+ul{
+	color: white;
+	list-style-type: none;		
+}
+#items a:hover {
+	background-color: plum;
+
+}
+#items a:active {
+	background-color:navy  ;
+
+}
+
+h1{
+	text-shadow: 1px 1px 1px #222;
+		
+
+}
+#head{
+	position: relative;
+}
+#list{
+	background-color: #AB05F2;
+    float: right;
+	margin-top: 31px;
+}
+#opac{
+	opacity: 0.8;
+}
+
+.text-ht{
+	min-height: 1000px;
+	border: 5px solid grey;
+	margin-bottom: 30px;
+	}
+
+p{
+	text-align: center;
+	padding: 5px;
+}
